@@ -1,0 +1,16 @@
+a= int(input("enter a number: "))
+b= int(input("enter a number: "))
+a += b
+print("a += b: ", a)
+a -= b
+print("a -= b: ", a)
+a *= b
+print("a *= b: ", a)
+a /= b
+print("a /= b: ", a)
+a %= b
+print("a %= b: ", a)
+a //=b
+print("a //=b: ", a)
+a **=b
+print("a **= b: ", a)
