@@ -39,8 +39,5 @@ for i in range(len(lst)):
 print(res)
 
 
-#find min element in list using for loop
-#find max element in list using for loop
-#find sum of elements in the list
-#find the product of a list
+
 
