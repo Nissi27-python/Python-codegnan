@@ -19,8 +19,28 @@ while i<n:
         i+=1
 print(lst)
 
+#reverse of a number / palindrome
+n=int(input())
+res=0
+while n > 0:
+    rem = n%10
+    n=n//10
+    res = res*10+rem
+print(res)
+
+#square and squareroot
+lst=[1,2,3,4,5]
+res=[]
+for i in range(len(lst)):
+    if lst[i] % 2 == 0:
+        res.append(lst[i]**2)
+    else:
+        res.append(lst[i]**0.5)
+print(res)
+
 
 #find min element in list using for loop
 #find max element in list using for loop
 #find sum of elements in the list
 #find the product of a list
+
